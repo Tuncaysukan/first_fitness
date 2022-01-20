@@ -384,13 +384,15 @@ class _HomeState extends State<Home> {
                       ),
                       child: Column(
                         children: [
-                          Hero(
-                            tag: trainerList[index],
-                            child: Image.asset(
-                              item['image'],
-                              height: height * 0.09,
-                              width: width * 0.22,
-                              fit: BoxFit.cover,
+                          Expanded(
+                            child: Hero(
+                              tag: trainerList[index],
+                              child: Image.asset(
+                                item['image'],
+                                height: height * 0.09,
+                                width: width * 0.22,
+                                fit: BoxFit.cover,
+                              ),
                             ),
                           ),
                           Padding(
