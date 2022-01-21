@@ -39,7 +39,7 @@ class _MyActivityState extends State<MyActivity> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: Text(
-          'My Activity',
+          'Gelişim Süreci',
           style: black18SemiBoldTextStyle,
         ),
       ),

@@ -69,14 +69,14 @@ class _HomeState extends State<Home> {
     },
     {
       'image': 'assets/trainer/trainer2.png',
-      'name': 'Joie Patel',
-      'type': 'Muscle trainer',
+      'name': 'Zobol  Taha',
+      'type': 'Personel trainer',
       'color': const Color(0xffffebee),
     },
     {
-      'image': 'assets/trainer/trainer3.png',
-      'name': 'Tish Shah',
-      'type': 'Muscle trainer',
+      'image': 'assets/trainer/trainer2.png',
+      'name': 'Fitne Fücür Onur',
+      'type': 'Fitne trainer',
       'color': const Color(0xffe8f5e9),
     },
     {
@@ -337,7 +337,7 @@ class _HomeState extends State<Home> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: fixPadding * 2.0),
           child: Text(
-            'Tercih Edilen Eğitmen',
+            'Önerilen   Eğitmenlerimiz',
             style: black16SemiBoldTextStyle,
           ),
         ),

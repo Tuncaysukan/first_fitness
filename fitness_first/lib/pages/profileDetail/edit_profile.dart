@@ -85,7 +85,7 @@ class EditProfile extends StatelessWidget {
                 decoration: const BoxDecoration(
                   shape: BoxShape.circle,
                   image: DecorationImage(
-                    image: AssetImage('assets/users/user7.png'),
+                    image: AssetImage('assets/trainer/trainer2.png'),
                     fit: BoxFit.cover,
                   ),
                 ),

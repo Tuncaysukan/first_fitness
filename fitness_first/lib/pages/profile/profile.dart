@@ -15,7 +15,7 @@ class _ProfileState extends State<Profile> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: Text(
-          'Profile',
+          'Profil',
           style: black18SemiBoldTextStyle,
         ),
       ),
@@ -44,7 +44,7 @@ class _ProfileState extends State<Profile> {
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                  image: AssetImage('assets/users/user7.png'),
+                  image: AssetImage('assets/trainer/trainer2.png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -58,7 +58,7 @@ class _ProfileState extends State<Profile> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Samantha John',
+                  'Fitne Fücür ',
                   style: black18SemiBoldTextStyle,
                 ),
                 Text(
@@ -161,7 +161,7 @@ class _ProfileState extends State<Profile> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: fixPadding * 2.0),
           child: Text(
-            'Workout',
+            'Antreman',
             style: grey13BoldTextStyle,
           ),
         ),

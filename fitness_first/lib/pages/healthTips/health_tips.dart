@@ -45,7 +45,7 @@ class _HealthTipsState extends State<HealthTips> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: Text(
-          'Health Tips',
+          'Blog Yazılarımız',
           style: black18SemiBoldTextStyle,
         ),
       ),

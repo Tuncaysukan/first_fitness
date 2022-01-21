@@ -54,7 +54,7 @@ class Chats extends StatelessWidget {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         title: Text(
-          'Chats',
+          'Mesajlar',
           style: black18SemiBoldTextStyle,
         ),
       ),
